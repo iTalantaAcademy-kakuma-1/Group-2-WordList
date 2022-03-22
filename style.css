@@ -1,0 +1,23 @@
+.mb-3{
+    margin: 2%;
+}
+#exampleInputEmail1{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+#text{
+    font-size:  100px;;
+}
+#body{
+    background-color: rgb(209, 160, 255);
+}
+.btn-info{
+    margin-left: 42%;
+    margin-top: 2%;
+
+}
+#button2{
+    position: relative;
+    margin-left: 5%;
+}
