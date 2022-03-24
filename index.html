@@ -11,21 +11,28 @@
     <link rel="icon" href="./images/group2.jpg" />
     <title>GROUP 2 </title>
 </head>
-<body id="body">
-    <h1 class="text-center mb-3"> <u> Write a Word and Add IT!</u></h1>
+<body>
+    <div class='container-ToDoList'>
+    <h1 class="text-center mb-3"> <u>ToDoList</u></h1>
     
     <form>
         <div class="form-group text-center">
-          <label for="exampleInputEmail1 " class="text-primary" id="text">Add Item</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Your word">
-          </div>
+            <input type=" text" id="yes" placeholder="Writes">
+            <span onclick="newElement()" class='addBtn'>add</span>
+         </div>
         </form>
-        <button type="button" class="btn btn-info" >
-            Add
+        <div class="myUl">
+        <ul>
+         <li>My duty</li>
+        </ul>
+         </div>  
+          
+        <button type="button" class="btn btn-info" id="button1">
+            Edit
         </button>
         <button type="button" class="btn btn-info btn btn-danger" id="button2" >
-            Remove
+            Delete
         </button>
-    
+    </div>
 </body>
 </html>
